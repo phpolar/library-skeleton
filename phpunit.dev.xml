@@ -26,4 +26,9 @@
       <directory suffix=".php">src</directory>
     </include>
   </coverage>
+  <php>
+    <const name="SRC_GLOB" value="/src{/,/**/}*.php" />
+    <const name="Phpolar\Tests\PROJECT_SIZE_THRESHOLD" value="10" />
+    <const name="Phpolar\Tests\PROJECT_MEMORY_USAGE_THRESHOLD" value="100" />
+  </php>
 </phpunit>
