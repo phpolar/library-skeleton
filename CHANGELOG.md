@@ -1,3 +1,10 @@
+## 0.4.0 (2023-02-12)
+
+### Feat
+
+- enhance pre-commit configuration
+- exclude unnecessary files from dist
+
 ## 0.3.0 (2023-02-09)
 
 ### Feat
