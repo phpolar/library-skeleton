@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "phpolar/some-library",
+    "name": "phpolar/library-skeleton",
     "description": "add your description here.",
     "type": "library",
     "require-dev": {
