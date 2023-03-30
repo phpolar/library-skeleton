@@ -1,3 +1,9 @@
+## 0.5.0 (2023-03-30)
+
+### Feat
+
+- **phpolar.svg**: add border to readme logo
+
 ## 0.4.0 (2023-02-12)
 
 ### Feat
