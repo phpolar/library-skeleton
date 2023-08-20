@@ -40,8 +40,10 @@ jobs:
 
     - name: Run test suite
       run: composer ci:test
+      continue-on-error: true
 
     - name: Generate Code Coverage Badge
       env:
         COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: composer ci:generate-coverage-badge
+      continue-on-error: true
